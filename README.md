@@ -32,6 +32,7 @@ python3 -m http.server 8000
 
 1. 변경 사항을 GitHub 저장소에 push합니다.
 2. GitHub 저장소의 `Settings`로 이동합니다.
-3. `Pages` 메뉴에서 배포 소스를 `Deploy from a branch`로 선택합니다.
-4. 브랜치는 `main`, 폴더는 `/root`를 선택합니다.
-5. 저장 후 표시되는 GitHub Pages URL에서 사이트를 확인합니다.
+3. `Pages` 메뉴에서 배포 소스를 `GitHub Actions`로 선택합니다.
+4. `main` 브랜치에 push되면 `.github/workflows/pages.yml` 워크플로가 사이트를 배포합니다.
+5. 저장소의 `Actions` 탭에서 `Deploy GitHub Pages` 실행 결과를 확인합니다.
+6. 표시되는 GitHub Pages URL에서 사이트를 확인합니다.

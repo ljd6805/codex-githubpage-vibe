@@ -1,15 +1,15 @@
 :root {
   color-scheme: light;
-  --bg: #f7f5f0;
+  --bg: #f7f3ff;
   --surface: #ffffff;
-  --surface-muted: #eef2f3;
-  --text: #172026;
-  --muted: #5d686f;
-  --line: #d9dedf;
-  --accent: #0f766e;
-  --accent-dark: #0b4f4a;
-  --rust: #b45309;
-  --shadow: 0 18px 50px rgba(23, 32, 38, 0.09);
+  --surface-muted: #f0e7ff;
+  --text: #22172f;
+  --muted: #65586f;
+  --line: #ded3eb;
+  --accent: #7c3aed;
+  --accent-dark: #5b21b6;
+  --rust: #9d174d;
+  --shadow: 0 18px 50px rgba(34, 23, 47, 0.1);
   --max-width: 1120px;
 }
 
@@ -24,8 +24,8 @@ html {
 body {
   margin: 0;
   background:
-    linear-gradient(135deg, rgba(15, 118, 110, 0.08), transparent 34rem),
-    linear-gradient(315deg, rgba(180, 83, 9, 0.08), transparent 32rem),
+    linear-gradient(135deg, rgba(124, 58, 237, 0.14), transparent 34rem),
+    linear-gradient(315deg, rgba(157, 23, 77, 0.1), transparent 32rem),
     var(--bg);
   color: var(--text);
   font-family:
@@ -41,7 +41,7 @@ a {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid rgba(15, 118, 110, 0.35);
+  outline: 3px solid rgba(124, 58, 237, 0.35);
   outline-offset: 4px;
 }
 
